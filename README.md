@@ -1,96 +1,10 @@
-🎟️ Smart Event Ticket Booking System
-A high-performance full-stack web application designed to manage event registrations seamlessly. Built with FastAPI and React, this app ensures real-time seat tracking and a smooth user experience.
-
-✨ Features
-🤖 Real-time Seat Tracking: Dynamic updates using polling to show available vs booked seats.
-
-🚫 Duplicate Prevention: Backend logic to prevent multiple bookings from the same email.
-
-📊 Admin Dashboard: A professional Ant Design Table to view and manage all bookings.
-
-🗑️ Easy Cancellation: One-click ticket cancellation that instantly restores seat availability.
-
-⚡ Async Backend: Powered by FastAPI and Motor for non-blocking database operations.
-
-🖼️ Project Screenshots
-<p align="center">
-<img src="https://via.placeholder.com/800x400?text=Dashboard+Overview" width="80%" alt="Dashboard" />
-
-
-<i>Admin Dashboard & Real-time Statistics</i>
-</p>
-
-<p align="center">
-<img src="https://via.placeholder.com/800x400?text=Booking+Modal+Form" width="80%" alt="Booking Form" />
-
-
-<i>Modal-based Booking Form with Validation</i>
-</p>
-
-🛠️ Tech Stack
-Frontend:
-
-React.js (Vite)
-
-Ant Design (UI Framework)
-
-Axios (API Communication)
-
-Lucide React (Icons)
-
-Backend:
-
-Python & FastAPI
-
-Motor (Async MongoDB Driver)
-
-Pydantic (Schema Validation)
-
-UUID (Unique Ticket Generation)
-
-Database:
-
-MongoDB Atlas (Cloud-based NoSQL)
-
-🚀 Getting Started
-1. Clone the repository
-Bash
-git clone https://github.com/CheSubhro/Simple-Event-Ticket-Booking.git
+🎟️ Smart Event Ticket Booking SystemA high-performance Full-Stack Registration Engine built with FastAPI & React.🚀 OverviewThis application is a streamlined solution for managing event ticket sales. It bridges the gap between a fast, asynchronous Python backend and a reactive, component-based frontend to provide instant seat updates and automated booking management.✨ Key Features🤖 Real-time Analytics: Dynamic "Seats Left" tracker using polling to keep users updated without page refreshes.🚫 Smart Validation: Backend logic layer to prevent duplicate registrations via email.📊 Pro-Admin Dashboard: Managed with Ant Design Tables, allowing admins to track every attendee in a structured view.⚡ Asynchronous Core: Leverages FastAPI & Motor for ultra-fast, non-blocking DB operations.🗑️ One-Click Cancellation: Instantly release seats back into the pool with automated database cleanup.🖼️ Visual Showcase<div align="center"><img src="https://github.com/user-attachments/assets/2a54885e-b99d-48a3-aea7-b799e8e07a9a" width="90%" alt="Main Dashboard" style="border-radius: 10px; margin-bottom: 20px;" /><p><i>The central hub showing real-time statistics and attendee management.</i></p><img src="https://github.com/user-attachments/assets/05e97aec-85fe-49bb-a3a1-b498139f9957" width="45%" alt="Booking Modal" /><img src="https://github.com/user-attachments/assets/50f23f10-9eca-4a18-9452-b09e3d83e7f9" width="45%" alt="Success Notification" /><p><i>Elegant Modal Forms & Instant Notification System.</i></p><img src="https://github.com/user-attachments/assets/b2be5ba8-b9e4-4515-85c5-1cebc2652cec" width="90%" alt="Swagger Docs" /><p><i>Self-documenting Interactive API (Swagger UI).</i></p></div>🛠️ The Tech StackLayerTechnologyRoleFrontendReact (Vite)Client-side logic & Reactive UIUI LibraryAnt Design 5.0Professional components & LayoutsBackendFastAPI (Python)High-performance REST APIDatabaseMongoDB AtlasScalable Cloud NoSQL StorageCommunicationAxiosSeamless API requests📥 Getting Started1. Clone & EnterBashgit clone https://github.com/CheSubhro/Simple-Event-Ticket-Booking.git
 cd Simple-Event-Ticket-Booking
-2. Backend Setup
-Navigate to the backend folder:
-
-Bash
-cd backend
-Install dependencies:
-
-Bash
+2. Spin up BackendBashcd backend
 pip install -r requirements.txt
-Create a .env file and add your MongoDB URI:
-
-Code snippet
-MONGO_DETAILS=your_mongodb_atlas_uri
-Run the server:
-
-Bash
+# Create .env and add MONGO_DETAILS
 uvicorn main:app --reload
-3. Frontend Setup
-Navigate to the frontend folder:
-
-Bash
-cd frontend
-Install dependencies:
-
-Bash
+3. Launch FrontendBashcd ../frontend
 npm install
-Run the development server:
-
-Bash
 npm run dev
-📝 License
-This project is for educational purposes as part of a Fullstack Development learning journey.
-
-👨‍💻 Author
-CheSubhro
-
-GitHub: @CheSubhro
+👨‍💻 Developed ByCheSubhro Full-Stack Developer 
